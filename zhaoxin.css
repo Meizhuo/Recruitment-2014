@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+body{
+background-color: #6E6E6E;	
+}
+.div_body{
+	height:1900px;
+	width:900px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+background-color: #FFFFFF;	
+border-radius:3px;
+
+
+}
+.div_body_top{
+	height:52px;
+	width:880px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+background-color: #1C1C1C;
+border: 1px solid gray;
+}
+#my_container-fluid{
+	margin-top:5px;
+	width:880px;
+	background-color: #BCE27F;
+
+}
+
+.table-baoming{
+	margin: 20px;
+}
+
+.textarea-my{
+	text-align: start;
+}
