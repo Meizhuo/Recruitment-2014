@@ -1,6 +1,7 @@
 @CHARSET "UTF-8";
 body{
-background-color: #6E6E6E;	
+/*background-color: #6E6E6E;	*/
+	background:url('./images/bg.jpg') fixed;background-size:cover
 }
 .div_body{
 	/*height:1900px;*/
@@ -9,10 +10,8 @@ background-color: #6E6E6E;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-background-color: #FFFFFF;	
-border-radius:3px;
-
-
+	background-color: #FFFFFF;	
+	border-radius:3px;
 }
 .div_body_top{
 	height:52px;
@@ -26,7 +25,7 @@ border: 1px solid gray;
 #my_container-fluid{
 	margin-top:5px;
 	width:880px;
-	background-color: #BCE27F;
+	background-color: black;
 
 }
 
@@ -40,4 +39,31 @@ border: 1px solid gray;
 
 blockquote{
 	font-size: 14px;
+}
+
+.transparent_class {  
+      filter:alpha(opacity=50);  
+      -moz-opacity:0.7;  
+      -khtml-opacity: 0.7;  
+      opacity: 0.7;  
+}   
+
+p{
+	color: white;
+}
+
+dd{
+	color: white;
+}
+
+dl{
+	color: white;
+}
+
+h1{
+	color: white;
+}
+
+address{
+	color :white;
 }
