@@ -3,11 +3,12 @@ body{
 background-color: #6E6E6E;	
 }
 .div_body{
-	height:1900px;
+	/*height:1900px;*/
 	width:900px;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 20px;
 background-color: #FFFFFF;	
 border-radius:3px;
 
@@ -35,4 +36,8 @@ border: 1px solid gray;
 
 .textarea-my{
 	text-align: start;
+}
+
+blockquote{
+	font-size: 14px;
 }
